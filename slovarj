@@ -1,0 +1,9 @@
+people = {}
+
+people['Ford'] = {'name': 'Ford Prefect', 'Gender': 'Male', 'occupation': 'researcher', 'home planet': 'Betelguese Seven' }
+people['Artur'] = {'name': 'Artur Dent', 'Gender': 'Male', 'occupation': 'warehouse worker', 'home planet': 'earth'}
+people['Slava'] = {'name': 'Slava Bit', 'Gender': 'Male', 'occupation': 'Bouncer', 'home planet': 'Earth, Latvia, Rudens 3'}
+
+import pprint
+
+pprint.pprint(people)
